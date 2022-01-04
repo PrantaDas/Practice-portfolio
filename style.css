@@ -1,0 +1,85 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+.clr{
+    color: orange;
+}
+section{
+    display: flex;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding:5%;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+    width: 70%;
+}
+.hire-me{
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width img{
+    width: 80%;
+}
+.resume{
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px;
+    border-radius: 5px;
+}
+.middle-banner{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.context{
+    text-align: center;
+    font-size: 40px;
+}
+.exp-area{
+box-shadow: 10px 10px 40px gray;
+width: 40%;
+margin-left:5%;
+margin-right: 5%;
+padding-left: 50px;
+padding-right: 50px;
+border-radius: 10px;
+}
+.bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.size{
+    font-size: 30px;
+}
+#b1{
+    border-image: linear-gradient(salmon,tomato);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+#b2{
+    border-image: linear-gradient(navy,cyan);
+    border-left: 5px solid;
+    border-image-slice: 1;
+}
+#fs{
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 16%;
+}
